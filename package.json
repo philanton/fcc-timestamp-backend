@@ -1,0 +1,32 @@
+{
+  "name": "fcc-timestamp-backend",
+  "author": "Enthony Phil",
+  "description": "This is my first backend app running on Glitch and made from an fcc sleleton.",
+  "keywords": [
+    "freecodecamp",
+    "fcc",
+    "repo",
+    "glitch",
+    "npm",
+    "backend"
+  ],
+  "license": "UNLICENSED",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philanton/fcc-timestamp-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philanton/fcc-timestamp-backend/issues"
+  },
+  "homepage": "https://github.com/philanton/fcc-timestamp-backend#readme"
+}
