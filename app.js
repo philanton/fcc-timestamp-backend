@@ -33,4 +33,13 @@ api.get("/timestamp/:date?", (req, res) => {
   }
 });
 
+api.get("/whoami", (req, res) => {
+  console.log(req.headers);
+  res.json({
+    ipaddress: req.ip,
+    language: req.headers["accept-language"],
+    software: req.headers["user-agent"]
+  });
+});
+
  module.exports = api;
